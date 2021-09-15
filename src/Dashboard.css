@@ -1,0 +1,16 @@
+.col-class{
+    border-radius: 20px;
+    margin: 10px 70px 10px 70px;
+    height: 80px;
+    width: 50%;
+}
+.col-class p{
+    padding: 24px;
+    color: white;
+}
+
+.col-class p::after { 
+    content: " This Month";
+     font-size: xx-small;
+     color: white;
+  }
